@@ -62,7 +62,7 @@ fun NameList() {
             Spacer(modifier = Modifier.weight(1f))
             Button(onClick = {
                 if (name.isNotBlank()){
-                names = names + name
+                    names = names + name
                 } else{
                     Toast
                         .makeText(
@@ -84,8 +84,8 @@ fun NameList() {
                 Text(text = currentName)
             }
         }
-        }
     }
+}
 
 
 
